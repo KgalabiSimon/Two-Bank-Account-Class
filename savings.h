@@ -1,11 +1,15 @@
 #ifndef SAVINGS_H
 #define SAVINGS_H
+#include"account.h"
 
 
-class Savings
+class Savings: public Account
 {
 public:
-    Savings();
+    Savings(QString a,  Customer c);
+    bool withdraw(double d);
+    QString toString();
+    double INTEREST;
 };
 
 #endif // SAVINGS_H
