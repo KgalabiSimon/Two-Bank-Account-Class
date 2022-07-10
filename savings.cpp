@@ -32,7 +32,7 @@ bool Savings::withdraw(double d){
 }
 
 
-QString Savings::toString(){
+QString Savings::toString() const{
 
 
     QString retval;
