@@ -2,7 +2,6 @@
 #include "account.h"
 #include"QTextStream"
 
-QTextStream cout(stdout);
 
 Savings::Savings(QString a, Customer c): Account(a,c)
 {

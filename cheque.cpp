@@ -26,8 +26,6 @@ bool Cheque::withdraw(double d){
 }
 
 
-
-
 QString Cheque::toString() const{
 
     QString retval;

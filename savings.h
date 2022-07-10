@@ -8,7 +8,7 @@ class Savings: public Account
 public:
     Savings(QString a,  Customer c);
     bool withdraw(double d);
-    QString toString();
+    QString toString() const;
     double INTEREST;
 };
 
